@@ -1,0 +1,27 @@
+@import "tailwindcss";
+#main-boxs {
+    position: relative;
+    overflow: hidden;
+}
+
+#main-boxs::after {
+    content: '';
+    position: absolute;
+    width: 5px;
+    height: 100%;
+    bottom: 0;
+    /* position at bottom for upward scaling */
+    left: 0;
+    /* place bar at left side */
+    background-color: #4a45c3;
+    transform-origin: bottom;
+    /* start scale from bottom */
+    transform: scaleY(0);
+    /* initially zero height */
+    transition: transform 0.3s ease-out;
+}
+
+#main-boxs:hover::after {
+    transform: scaleY(1);
+    /* scale to full height on hover */
+}

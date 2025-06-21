@@ -1,0 +1,35 @@
+.nav-link {
+    position: relative;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -4px;
+    left: 0;
+    background-color: #3E5A9E;
+    transform-origin: bottom right;
+    transition: transform 0.3s ease-out;
+}
+
+.nav-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.active-link::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+.nav-link.active-link {
+    font-weight: bold;
+    color: #3E5A9E;
+    /* or add underline, border, etc */
+}
