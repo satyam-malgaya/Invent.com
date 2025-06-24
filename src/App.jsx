@@ -2,14 +2,13 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
-import gsap from "gsap";
-import Home from './pages/Home';
-import About from './pages/About';
-import Contact from './pages/Contact';
-import Services from './pages/Services';
-import Pricing from './pages/Pricing';
-import Team from './pages/Team';
-import Portfolio from './pages/Portfolio'; // fix spelling
+import Home from './Pages/Home';
+import About from './Pages/About';
+import Contact from './Pages/Contact';
+import Services from './Pages/Services';
+import Pricing from './Pages/Pricing';
+import Team from './Pages/Team';
+import Portfolio from './Pages/Portfolio'; // fix spelling
 
 const App = () => {
   return (

@@ -163,8 +163,7 @@ const data=[
     <p className="text-xs md:text-sm text-[#4B4F53]">{value.pere}</p>
   </div>
 </div>
-
-            );
+);
           })}
         </div>
       </div>
