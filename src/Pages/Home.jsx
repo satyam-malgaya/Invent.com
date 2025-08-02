@@ -6,7 +6,7 @@ import { PiHeadsetFill } from "react-icons/pi"
 const Home = () => {
    
   return (
-    <div>
+    <div className="home">
       <div className="w-full min-h-screen bg-[#F7F6FE] shadow pt-[6.525rem]">
         {/* Hero Section */}
         <div className="max-w-7xl mx-auto px-4">

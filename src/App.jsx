@@ -1,10 +1,11 @@
 // https://bootstrapmade.com/demo/Invent/Z
+import './App.css'
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Home from './Pages/Home';
 import About from './Pages/About';
-import Contact from './Pages/Contact';
+import Contact from './components/Contact';
 import Services from './Pages/Services';
 import Pricing from './Pages/Pricing';
 import Team from './Pages/Team';
@@ -12,7 +13,7 @@ import Portfolio from './Pages/Portfolio'; // fix spelling
 
 const App = () => {
   return (
-    <div className='w-full min-h-screen'>
+    <div id='main' className='w-full min-h-screen'>
       <Navbar />
       <div>
         <Routes>

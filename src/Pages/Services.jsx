@@ -198,6 +198,9 @@ const Services = () => {
                 ishover[newIndex] ? "shadow-xl" : ""
               }`}
             >
+
+
+              
               <div className="pt-6 md:pt-8">
                 <div
                   style={{

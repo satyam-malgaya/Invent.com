@@ -129,6 +129,7 @@ const data=[
     ishover[newidex] ? 'shadow-2xl' : ''
   }`}
 >
+  
   <div className="w-full aspect-[4/3] relative rounded-t-xl overflow-hidden">
     <img
       src={value.img}

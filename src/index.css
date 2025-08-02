@@ -25,3 +25,7 @@
     transform: scaleY(1);
     /* scale to full height on hover */
 }
+
+.slick-slide>div {
+    margin: 0 10px;
+}
