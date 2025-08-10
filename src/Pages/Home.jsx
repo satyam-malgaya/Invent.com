@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { IoSettings } from "react-icons/io5";
 import { MdSecurity } from "react-icons/md";
 import { PiHeadsetFill } from "react-icons/pi"
+import Footer from "../components/Footer";
 
 const Home = () => {
    
@@ -92,7 +93,7 @@ const Home = () => {
         </div>
 
          {/* main-container .........{About}................ */}
-       
+       <Footer/>
       </div>
     </div>
   );

@@ -26,6 +26,7 @@ const App = () => {
           <Route path="/team" element={<Team />} />
         </Routes>
       </div>
+      
     </div>
   );
 };

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { CgPlayButtonO } from "react-icons/cg";
 import { IoEyeOutline } from "react-icons/io5";
 import { GoArrowRight } from "react-icons/go";
+import Footer from "../components/Footer";
 
 const Portfolio = () => {
 const data=[
@@ -168,6 +169,7 @@ const data=[
           })}
         </div>
       </div>
+     <Footer/> 
     </div>
   );
 };

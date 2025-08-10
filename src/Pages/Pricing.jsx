@@ -7,6 +7,7 @@ import { IoIosMail } from "react-icons/io";
 import { AiOutlineMessage } from "react-icons/ai";
 import { FiPhone } from "react-icons/fi";
 import { SlArrowDown } from "react-icons/sl";
+import Footer from "../components/Footer";
 
 const Pricing = () => {
   const [ishover, setishover] = useState(Array(3).fill(false));
@@ -253,7 +254,7 @@ const Pricing = () => {
             </div>
             <div className="px-4 w-auto transition-all duration-300 overflow-hidden">
               <p
-                className={`text-black transition-all pb-5 duration-500 text-black  ease-in-out 
+                className={`text-black transition-all pb-5 duration-500   ease-in-out 
                    ${isclick[index] ? "max-h-[500px] opacity-100" : "max-h-0 opacity-0"}`}
                 style={{ transitionProperty: "max-height, opacity" }}>
                 {value.p}
@@ -265,6 +266,7 @@ const Pricing = () => {
 
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

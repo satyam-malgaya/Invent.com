@@ -14,6 +14,7 @@ import { GoCodeSquare } from "react-icons/go";
 import { GoGraph } from "react-icons/go";
 import { IoSettings } from "react-icons/io5";
 import { FaCheckCircle } from "react-icons/fa";
+import Footer from "../components/Footer";
 
 
 const Services = () => {
@@ -361,6 +362,7 @@ const Services = () => {
           </div>
         </div>
       </div>
+      <Footer/>
     </div>
   );
 };

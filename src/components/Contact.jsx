@@ -5,6 +5,7 @@ import { LuClock } from "react-icons/lu";
 import { IoIosMail } from "react-icons/io";
 import { AiOutlineMessage } from "react-icons/ai";
 import toast from "react-hot-toast";
+import Footer from "./Footer";
 
 const Contact = () => {
   const [ishover, setishover] = useState(Array(3).fill(false));
@@ -205,6 +206,7 @@ const Contact = () => {
           </div>
         </form>
       </div>
+      <Footer/>
     </div>
   );
 };

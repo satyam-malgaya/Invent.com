@@ -6,6 +6,8 @@ import { PiNotePencilFill } from "react-icons/pi";
 import { IoSettings } from "react-icons/io5";
 import { BsSearch } from "react-icons/bs";
 import { PiRocketLaunchFill } from "react-icons/pi";
+import Footer from '../components/Footer'
+
 
 const About = () => {
   const [ishover, setishover] = useState([false, false, false, false]);
@@ -22,6 +24,7 @@ const About = () => {
     // console.log('left')
   };
   return (
+    <div>
     <div className="w-full h-[120vh]">
       <div
         id="About"
@@ -248,8 +251,10 @@ const About = () => {
             </div>
           </div>
         </div>
+      <Footer/>
         {/* contain-4................ */}
       </div>
+    </div>
     </div>
   );
 };
